@@ -4,6 +4,12 @@ Backend for AgriScienceCrop application - Intelligent Crop Management Platform f
 
 ## System Architecture
 
+![AgriScience BR - System Architecture](./agriscience.jpeg)
+
+*Complete system architecture diagram showing the integration between Frontend, Backend, External APIs, and Database components.*
+
+## System Architecture
+
 ### Backend Architecture
 
 The server uses Express.js with TypeScript in ESM format, structured as a RESTful API. Authentication is handled via JWT tokens with bcrypt for password hashing. The application follows a clean separation between route handlers, business logic, and data access layers.
